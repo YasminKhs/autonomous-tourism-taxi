@@ -196,6 +196,7 @@ function setupQLabs(spawn_option, manual_location)
     end
     
     qlabs.close();
+    Ensure_QCar2_Runtime();
 
 end
 

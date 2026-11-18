@@ -25,3 +25,20 @@ Developed as a hackathon concept with prototype work. The features above describ
 
 ## Team
 Developed collaboratively by our UNHack team.
+
+## Driving Simulation
+Our team worked on an autonomous taxi simulation using MATLAB, Simulink, and Quanser QLabs.
+
+The simulation demonstrates:
+- Navigation around the simulated road map
+- Travel to specified pickup and drop-off locations
+- Traffic-rule handling, including stopping at stop signs and yielding
+
+This demonstration was performed in a simulated environment.
+
+[View or download the simulation video](taxi-simulation.mp4)
+
+## Presentation
+Our pitch presents RoboTaxi Trips, the tourism service concept behind this project, including the visitor experience and business model.
+
+[Download the pitch deck](pitch-deck.pptx)

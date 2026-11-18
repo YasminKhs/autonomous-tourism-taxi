@@ -38,6 +38,19 @@ This demonstration was performed in a simulated environment.
 
 [View or download the simulation video](taxi-simulation.mp4)
 
+## My Contribution
+I worked on configuring and troubleshooting the autonomous taxi simulation using MATLAB, Simulink, and Quanser QLabs.
+
+My work focused on:
+- Investigating QCar2 runtime startup and HIL connection errors
+- Working through camera configuration and RealSense device-name issues
+- Running the simulation, reporting errors, and testing proposed fixes
+- Exploring an arrival planner in a separate experimental model
+
+I used AI-assisted development and debugging throughout this process.
+
+The project demonstration shows the simulated car navigating the map, travelling between specified pickup and drop-off locations, and responding to traffic rules. The experimental arrival planner is separate from this demonstration.
+
 ## Presentation
 Our pitch presents RoboTaxi Trips, the tourism service concept behind this project, including the visitor experience and business model.
 

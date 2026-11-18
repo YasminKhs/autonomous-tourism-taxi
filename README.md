@@ -42,3 +42,34 @@ This demonstration was performed in a simulated environment.
 Our pitch presents RoboTaxi Trips, the tourism service concept behind this project, including the visitor experience and business model.
 
 [Download the pitch deck](pitch-deck.pptx)
+## Simulation Files
+The `simulation` folder contains the Simulink model, passenger-stop controller, setup scripts, and passenger-stop documentation.
+
+The passenger-stop controller:
+- Uses specified pickup and drop-off coordinates
+- Issues a five-second stop command at each location
+- Resumes the existing route after each stop
+- Completes one pickup and drop-off mission per simulation run
+
+The five-second timer begins when the stop command is issued, including the initial braking interval.
+
+[Read the passenger-stop documentation](simulation/PASSENGER_STOPS.md)
+
+## Software Requirements
+Running the simulation requires:
+- Windows
+- MATLAB and Simulink
+- Quanser Interactive Labs with the QCar2 environment
+- Quanser QUARC and supporting libraries
+- The original competition resources, including additional parameter scripts, data, and detection assets
+
+This repository contains selected project files. The original competition environment and supporting resources are also required to run the model.
+
+## Team and Credits
+Developed for UNHack 2026 by team UN-Handled Exception:
+- Hasita Mandaleeka
+- Reza Danesh Askari
+- Yasamin Khorsandpour
+- Samantha Murillo
+
+The simulation builds on the Quanser and MathWorks competition starter resources.
